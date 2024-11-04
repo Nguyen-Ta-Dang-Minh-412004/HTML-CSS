@@ -3,41 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--    Đổi tên trang web-->
+    <!--    VD: <title>Đăng nhâp</title>-->
+    <title>Đăng nhâp</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<div class="content-body">
     <div class="left">
-        <img src="Screenshot 2024-10-28 100229.png" alt="">
+        <img src="image/Screenshot%202024-10-28%20100229.png" alt="">
     </div>
     <div class="right">
         <header>
-            <img src="Screenshot 2024-10-26 172114.png" alt="">
+            <img src="image/Screenshot%202024-10-26%20172114.png" alt="">
         </header>
-       
-        
+
+
         <div class="content">
             <form class="login-form">
                 <h2>Đăng nhập</h2>
-                
+
                 <label for="Email">Email</label>
                 <input type="email" id="Email" name="Email" placeholder="Nhập email">
-                
+
                 <label for="Password">Mật khẩu</label>
                 <div class="password-container">
                     <input type="password" id="Password" name="Password" placeholder="Nhập mật khẩu">
                     <span class="show-password">👁️</span>
                 </div>
-                
+
                 <div class="options">
                     <label>
                         <input type="checkbox" name="remember"> Ghi nhớ mật khẩu
                     </label>
                     <a href="#" class="forgot-password">Quên mật khẩu</a>
                 </div>
-                
+
                 <input type="submit" value="Đăng nhập" class="login-button">
-                
+
                 <p class="register">Chưa có tài khoản? <a href="#">Đăng ký ngay</a></p>
             </form>
         </div>
@@ -55,5 +58,10 @@
             </div>
         </footer>
     </div>
+</div>
 </body>
 </html>
+
+<!--Nhận xét-->
+<!--1. cho width của web là 100% : chia bố cục theo tỉ lệ hiện tại e đang fix cứng phân ảnh và phần content-->
+<!--2. làm tương tự với phần height: hiện tại đang fix cứng cho css cho phần content-->
